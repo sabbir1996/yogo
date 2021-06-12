@@ -1,4 +1,133 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: #6900d1;
+}
+.navbar{
+    padding-top: 20px !important;
+}
+.nav-item{
+    margin-left: 40px;
+    font-size:15px !important;
+    margin-bottom: 10px;
+}
+.ms-auto{
+    text-align: right;
+}
+.nav-link{
+    color: #fff !important;
+    padding: 0 0 5px 0 !important;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    border: 0;
+    outline: none;
+    padding: initial;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+.navbar-brand img{
+    width: 125px;
+}
+.navbar-toggler-icon{
+    color: white;
+    font-size: 20px;
+}
+.navbar-toggler{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.banner{
+    margin-top: 8%;
+    color: white;
+}
+.banner h1{
+    margin: 80px 0 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.banner img{
+    max-width: 500px;
+}
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #6900d1;
+    text-decoration: none !important;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.banner a:hover{
+    color: white;
+}
+.express-btn{
+    background: #fff !important;
+    color: #000 !important;
+    margin-right: 5px !important;
+}
+
+/*------------service------------*/
+.service{
+    margin: 75px 0;
+}
+.titel{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sub-titel{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+.service-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .4s;
+}
+.service-box img{
+    width: 60px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.service-box h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.service-box p{
+    font-size: 14px;
+    color: #808080;
+}
+.fa-arrow-right{
+    font-size:22px !important;
+    margin:10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.service-box:hover, .active-service{
+    background: #6900d1;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 0 15px 2px rgba(213,213,213,0.5); 
+}
+.service-box:hover p{
+    color: white !important;
+}
+.active-service p{
+    color: white;
 }
